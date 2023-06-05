@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".GaleriFragment"
+    android:orientation="vertical"
+    >
+
+   <TextView
+       android:id="@+id/txtTitle"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Yana Kaydırarak Gezebilirsiniz!"
+       android:textSize="28sp"
+       android:textColor="#D5613C"
+       android:textAlignment="center"
+       />
+
+   <androidx.recyclerview.widget.RecyclerView
+       android:id="@+id/recyclerViewGaleri"
+       android:layout_width="match_parent"
+
+       android:layout_height="wrap_content"
+>
+
+   </androidx.recyclerview.widget.RecyclerView>
+
+</LinearLayout>
